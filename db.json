@@ -1,0 +1,20 @@
+{
+  "highscores": [
+    { 
+      "name": "Franklin",
+      "score": "1010"
+    },
+    { 
+      "name": "Trevor",
+      "score": "980"
+    },
+    {
+      "name": "Michael",
+      "score": "1080"
+    },
+    {
+      "name": "Lester",
+      "score": "1200"
+    }
+  ]
+}
