@@ -16,5 +16,19 @@
       "name": "Lester",
       "score": "1200"
     }
+  ],
+  "prego": [
+    {
+      "test": "lorem1",
+      "doro": "ipsum1"
+    },
+    {
+      "test": "lorem2",
+      "doro": "ipsum2"
+    }
+    {
+      "test": "lorem3",
+      "doro": "ipsum3"
+    }
   ]
 }
