@@ -381,6 +381,60 @@
           ]
         }
       ]
+    },
+    {
+      "id": 5,
+      "name": "Sass",
+      "date": "2019-11-08",
+      "category": "CSS",
+      "questions": [
+        {
+          "example": "$font-color: red;\r\n$font-color: blue !default;\r\n \r\n.element {\r\n    color: $font-color;\r\n}",
+          "question": "Folgender Code liegt vor. Welche Farbe hat der Text von .element?",
+          "answers": [
+            {
+              "answer": "Rot",
+              "score": 100
+            },
+            {
+              "answer": "Blau",
+              "score": null
+            }
+          ]
+        },
+        {
+          "example": "$font-color: red !default;\r\n$font-color: blue;\r\n  \r\n.element {\r\n    color: $font-color;\r\n}",
+          "question": "Folgender Code liegt vor. Welche Farbe hat der Text von .element?",
+          "answers": [
+            {
+              "answer": "Rot",
+              "score": null
+            },
+            {
+              "answer": "Blau",
+              "score": 100
+            }
+          ]
+        },
+        {
+          "example": "",
+          "question": "Wie oft kann man theoretisch Selektoren mit Sass nesten?",
+          "answers": [
+            {
+              "answer": "bis zu fünf mal",
+              "score": null
+            },
+            {
+              "answer": "bis zu acht mal",
+              "score": null
+            },
+            {
+              "answer": "es gibt kein Limit",
+              "score": 100
+            }
+          ]
+        }
+      ]
     }
   ]
 }
