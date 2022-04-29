@@ -95,6 +95,204 @@
             ]
           }
         ]
+      },
+      {
+        "id": 3,
+        "name": "CSS",
+        "date": "2019-05-04",
+        "category": "CSS",
+        "questions": [
+          {
+            "example": ".element {\r\n    min-height: 100px;\r\n    max-height: 50px;\r\n}",
+            "question": "Folgender Code liegt vor. Wie hoch ist das .element?",
+            "answers": [
+              {
+                "answer": "100px",
+                "score": 100
+              },
+              {
+                "answer": "50px",
+                "score": null
+              }
+            ]
+          },
+          {
+            "example": "",
+            "question": "Welche der folgenden Schreibweisen ist eine valide Media Query?",
+            "answers": [
+              {
+                "answer": "@media screen and (min-width: 600px)",
+                "score": 100
+              },
+              {
+                "answer": "@media screen and min-width = '600px'",
+                "score": null
+              },
+              {
+                "answer": "@media (screen and min-width: 600px)",
+                "score": null
+              },
+              {
+                "answer": "@media = 'screen' and 'min-width: 600px'",
+                "score": null
+              }
+            ]
+          },
+          {
+            "example": "<style>\r\n    div span {\r\n        color: blue;\r\n    }\r\n    span {\r\n        color: red;\r\n    }\r\n    p {\r\n        color: green;\r\n    }\r\n<\/style>\r\n<div>\r\n    <p>Dies ist ein <span>Absatz<\/span><\/p>\r\n<\/div>",
+            "question": "Folgender Code liegt vor. Welche Farbe hat das Wort 'Absatz'?",
+            "answers": [
+              {
+                "answer": "Default (inherit)",
+                "score": null
+              },
+              {
+                "answer": "Grün",
+                "score": null
+              },
+              {
+                "answer": "Rot",
+                "score": null
+              },
+              {
+                "answer": "Blau",
+                "score": 100
+              }
+            ]
+          },
+          {
+            "example": "",
+            "question": "Folgender Code liegt vor. Welche Farbe hat das Wort 'Absatz'?",
+            "answers": [
+              {
+                "answer": "Default (inherit)",
+                "score": null
+              },
+              {
+                "answer": "Grün",
+                "score": null
+              },
+              {
+                "answer": "Rot",
+                "score": null
+              },
+              {
+                "answer": "Blau",
+                "score": 100
+              }
+            ]
+          },
+          {
+            "example": "",
+            "question": "Welche der folgenden Aussagen bezüglich SVG-Animationen ist wahr?",
+            "answers": [
+              {
+                "answer": "Es ist nicht möglich SVGs mittels CSS zu animieren",
+                "score": null
+              },
+              {
+                "answer": "SVGs haben eigene CSS-Eigenschaften, um animiert zu werden",
+                "score": null
+              },
+              {
+                "answer": "SVGs können mit den gleichen CSS-Eigenschaften, wie alle HTML-Elemente animiert werden",
+                "score": 100
+              },
+              {
+                "answer": "SVGs lassen sich nur mittels SMIL (Synchronized Multimedia Integration Language) und JavaScript animieren",
+                "score": null
+              }
+            ]
+          },
+          {
+            "example": "<section><\/section>\r\n<div><\/div>\r\n<div><\/div>",
+            "question": "Folgender Code liegt vor. Welcher der folgenden Selektoren spricht beide <div> Elemente an?",
+            "answers": [
+              {
+                "answer": "section + div",
+                "score": null
+              },
+              {
+                "answer": "section div",
+                "score": null
+              },
+              {
+                "answer": "section > div",
+                "score": null
+              },
+              {
+                "answer": "section ~ div",
+                "score": 100
+              }
+            ]
+          },
+          {
+            "example": "",
+            "question": "Welche der folgenden Antworten ist ein Beispiel für eine CSS-Funktion?",
+            "answers": [
+              {
+                "answer": "@keyframes",
+                "score": null
+              },
+              {
+                "answer": "cubic-bezier()",
+                "score": 100
+              },
+              {
+                "answer": ":not(p)",
+                "score": null
+              },
+              {
+                "answer": "@font-face",
+                "score": null
+              }
+            ]
+          },
+          {
+            "example": "",
+            "question": "Wie fügt man einen Kommentar in CSS ein?",
+            "answers": [
+              {
+                "answer": "// das ist ein Kommentar //",
+                "score": null
+              },
+              {
+                "answer": "/* das ist ein Kommentar */",
+                "score": 100
+              },
+              {
+                "answer": "' das ist ein Kommentar",
+                "score": null
+              },
+              {
+                "answer": "// das ist ein Kommentar",
+                "score": null
+              }
+            ]
+          },
+          {
+            "example": "",
+            "question": "Welchen CSS Kombinator gibt es nicht?",
+            "answers": [
+              {
+                "answer": "A > B",
+                "score": null
+              },
+              {
+                "answer": "A ~ B",
+                "score": null
+              },
+              {
+                "answer": "A + B",
+                "score": null
+              },
+              {
+                "answer": "A = B",
+                "score": 100
+              }
+            ]
+          }
+        ]
       }
     ]
 }
